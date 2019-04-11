@@ -8,7 +8,7 @@ console.log(numCompared);
 
 let age = prompt("How old are you?");
 
-if (age < 18) {
+if (Number(age) < 18) {
   console.log("You are underage");
 } else {
   console.log("You are old enough");
