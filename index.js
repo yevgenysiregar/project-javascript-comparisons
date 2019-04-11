@@ -32,7 +32,7 @@ switch (maths) {
 let days = prompt("How many days does usually 1 month have?");
 
 let answers =
-  days < 30
+  Number(days) < 30
     ? "It's more than that!"
     : days > 30
     ? "It's less than that!"
